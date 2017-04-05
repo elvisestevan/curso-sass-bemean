@@ -1,6 +1,13 @@
+$width: 100%;
+$font-size: 1.2rem;
+$font-family: "Lucida Grande";
+$background: #962acd;
+$color: #fff;
+$border-style: solid 1px $color;
+
 nav {
-  width: 100%;
-  background: #000;
+  width: $width;
+  background: $background;
 
   ul {
     list-style: none;
@@ -11,8 +18,8 @@ nav {
     color: red;
     margin: 0 20px;
     font: {
-      family: Arial;
-      size: 14px;
+      family: $font-family;
+      size: $font-size;
       weight: bold;
     }
   }
