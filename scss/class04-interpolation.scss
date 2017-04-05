@@ -1,0 +1,10 @@
+$name: destaque;
+$attr: border;
+
+p.#{$name} {
+  #{$attr}-color: blue;
+}
+
+p.destaque {
+  border-color: blue;
+}
