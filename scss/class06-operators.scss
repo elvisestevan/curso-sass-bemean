@@ -1,0 +1,15 @@
+$base-size: 20px;
+$line-height: 22px;
+$font-size: 27px;
+
+h1 {
+  font-size: (($base-size / $line-height) / 16) + rem;
+}
+
+h2 {
+  font-size: (($font-size % 2) / 16px) + rem;
+}
+
+p {
+  color: #010203 + #040506;
+}
