@@ -1,0 +1,12 @@
+@function calc-fluid ($target, $container) {
+  @return ($target / $container) * 100%;
+}
+
+section div {
+  background: lighten(#225d6c, 5%);
+}
+
+
+div {
+  width: calc-fluid(650, 1000)
+}
